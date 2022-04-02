@@ -29,3 +29,7 @@ VP -> ... | VI PP | VT PP (Preposition rules such as: https://global-square.com/
 P -> ... | 'away'
 
 or some other rules which indicated on exercise questions.
+
+## 2. Write a program to compare the efficiency of a top-down chart parser compared with a recursive descent parser (4). 
+
+Use the same grammar and input sentences for both. Compare their performance using the timeit module (see 4.7 for an example of how to do this)
