@@ -52,3 +52,31 @@ print(cp.evaluate(test_sents))
 > Recall:        67.8%
 
 > F-Measure:     69.2%
+
+and sample code to use chunkscore.missed() and chunkscore.incorrect()
+
+```py.py
+from nltk.chunk import *
+from nltk.chunk.util import *
+from nltk.chunk.regexp import *
+from nltk import Tree
+
+chunkscore = ChunkScore()
+for sent in  test_sents:
+  unchunked_sent = sent.flatten()
+  cp1_sent = cp1.parse(unchunked_sent)
+  bc_sent = bigram_chunker.parse(unchunked_sent)
+  print(sent)
+  print(cp1_sent)
+  print(bc_sent)
+  chunkscore.score(sent, cp1_sent)
+  print(chunkscore)
+  print(chunkscore.missed())
+  print(chunkscore.incorrect())
+  chunkscore.score(sent, bc_sent)
+  print(chunkscore)
+  print(chunkscore.missed())
+  print(chunkscore.incorrect())
+ 
+  break
+  ```
