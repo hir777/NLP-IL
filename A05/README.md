@@ -15,7 +15,7 @@ text = word_tokenize("And now for something completely different")
 nltk.pos_tag(text)
 ```
 
->>> [('And', 'CC'), ('now', 'RB'), ('for', 'IN'), ('something', 'NN'), ('completely', 'RB'), ('different', 'JJ')]
+> [('And', 'CC'), ('now', 'RB'), ('for', 'IN'), ('something', 'NN'), ('completely', 'RB'), ('different', 'JJ')]
 
 and if you want to information about plural noun, then NNS is this case.
 
@@ -43,11 +43,12 @@ cp = nltk.RegexpParser(grammar)
 print(cp.evaluate(test_sents))
 ```
 
->>> ChunkParse score:
->>> IOB Accuracy:  87.7%
+> ChunkParse score:
 
->>> Precision:     70.6%
+> IOB Accuracy:  87.7%
 
->>> Recall:        67.8%
+> Precision:     70.6%
 
->>> F-Measure:     69.2%
+> Recall:        67.8%
+
+> F-Measure:     69.2%
