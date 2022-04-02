@@ -38,8 +38,20 @@ def sense_features(instance):
     
 ```
 
-### 2. The synonyms strong and powerful pattern differently (try combining them with chip and sales). What features are relevant in this distinction? Build a classifier that predicts when each word should be used.
+### 2. The synonyms strong and powerful pattern differently (try combining them with chip and sales). 
+
+What features are relevant in this distinction? Build a classifier that predicts when each word should be used.
+
 (Please make collocation word and its histogram, and make a bigram model classifier to use some corpus)
 
-### 3. The dialog act classifier assigns labels to individual posts, without considering the context in which the post is found. However, dialog acts are highly dependent on context, and some sequences of dialog act are much more likely than others. For example, a ynQuestion dialog act is much more likely to be answered by a yanswer than by a greeting. Make use of this fact to build a consecutive classifier for labeling dialog acts. Be sure to consider what features might be useful. See the code for the consecutive classifier for part-of-speech tags in 1.7 to get some ideas.
+### 3. The dialog act classifier assigns labels to individual posts, without considering the context in which the post is found. 
+
+However, dialog acts are highly dependent on context, and some sequences of dialog act are much more likely than others. 
+
+For example, a ynQuestion dialog act is much more likely to be answered by a yanswer than by a greeting. Make use of this fact to build a consecutive classifier for labeling dialog acts. 
+
+Be sure to consider what features might be useful. 
+
+See the code for the consecutive classifier for part-of-speech tags in 1.7 to get some ideas.
+
 （Please see 1.6 and 2.1 on Exercise 8)
