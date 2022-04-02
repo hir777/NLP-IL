@@ -45,6 +45,9 @@ print(cp.evaluate(test_sents))
 
 >>> ChunkParse score:
 >>> IOB Accuracy:  87.7%
+
 >>> Precision:     70.6%
+
 >>> Recall:        67.8%
+
 >>> F-Measure:     69.2%
