@@ -1,5 +1,7 @@
 ## A03. Word Sense
 
+問題文
+
 ### 1. Use sorted() and set() to get a sorted list of tags used in the Brown corpus, removing duplicates.
 
 ### 2. Recall the example of a bigram tagger which encountered a word it hadn't seen during training, and tagged the rest of the sentence as None. 
