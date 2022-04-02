@@ -7,8 +7,8 @@ Report the answers to the questions below
 What is the difference between the following two lines? 
 
 ```sort
->>> sorted(set(w.lower() for w in text1))
->>> sorted(w.lower() for w in set(text1))
+sorted(set(w.lower() for w in text1))
+sorted(w.lower() for w in set(text1))
 ```
 Which one will give a larger value? Will this be the case for other texts?
 
