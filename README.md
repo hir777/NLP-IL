@@ -8,6 +8,6 @@
 
 解答集の使い方
 
-解答集では、Chapterごとに問題をまとめて保存されています。まずは、(教科書(入門自然言語処理))[https://www.oreilly.co.jp/books/9784873114705/]で、どのChapterにその問題が書かれているのか？、また、問題番号を把握したうえで解答集の中から目当ての問題の解答を探すと効率が良いです。
+解答集では、Chapterごとに問題をまとめて保存されています。まずは、[教科書　入門自然言語処理](https://www.oreilly.co.jp/books/9784873114705/)で、どのChapterにその問題が書かれているのか？、また、問題番号について把握したうえで解答集の中から目当ての問題の解答を探すと効率が良いです。
 
 [解答集 リンク](https://github.com/Sturzgefahr/Natural-Language-Processing-with-Python-Analyzing-Text-with-the-Natural-Language-Toolkit)
